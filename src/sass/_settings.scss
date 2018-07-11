@@ -1,6 +1,6 @@
 
 /**
-* most of the variables this file overwrites can be found in 
+* most of the variables this file overwrites can be found in
 * node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss"
 */
 
@@ -100,7 +100,7 @@ $caret-width-large:         8px !default;
 
 
 //Tags
-$taglist-item-bg-color: $whitesmoke !default; 
+$taglist-item-bg-color: $whitesmoke !default;
 
 //section underline seperators
 $after-section-underline-color: $whitesmoke !default;
@@ -165,22 +165,22 @@ $grid-float-breakpoint-max: ($grid-float-breakpoint - 1) !default;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  'Roboto', sans-serif  !default ; //"Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+$font-family-sans-serif:  -apple-system , BlinkMacSystemFont , "Segoe UI" , Roboto , "Segoe UI" , "Helvetica Neue", "PingFang SC", "Noto Sans" , "Noto Sans CJK SC" , "Microsoft YaHei" , "微软雅黑" , sans-serif !default;
+$font-family-serif:       -apple-system , BlinkMacSystemFont , "Segoe UI" , Roboto , "Segoe UI" , "Helvetica Neue", "PingFang SC", "Noto Sans" , "Noto Sans CJK SC" , "Microsoft YaHei" , "微软雅黑" , sans-serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base:        $font-family-sans-serif !default;
 
 $font-size-base:          16px !default;
-$font-size-large:         ceil(($font-size-base * 1.25)) !default; // 
-$font-size-small:         ceil(($font-size-base * 0.85)) !default; // 
+$font-size-large:         ceil(($font-size-base * 1.25)) !default; //
+$font-size-small:         ceil(($font-size-base * 0.85)) !default; //
 
-$font-size-h1:            floor(($font-size-base * 1.8)) !default; // 
-$font-size-h2:            floor(($font-size-base * 1.7)) !default; // 
-$font-size-h3:            ceil(($font-size-base * 1.6)) !default; // 
-$font-size-h4:            ceil(($font-size-base * 1.25)) !default; // 
+$font-size-h1:            floor(($font-size-base * 1.8)) !default; //
+$font-size-h2:            floor(($font-size-base * 1.7)) !default; //
+$font-size-h3:            ceil(($font-size-base * 1.6)) !default; //
+$font-size-h4:            ceil(($font-size-base * 1.25)) !default; //
 $font-size-h5:            $font-size-base !default;
-$font-size-h6:            ceil(($font-size-base * 0.85)) !default; // 
+$font-size-h6:            ceil(($font-size-base * 0.85)) !default; //
 
 //** Unit-less `line-height` for use in components like buttons.
 $line-height-base:          1.5 !default; // 24/16
